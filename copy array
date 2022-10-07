@@ -1,0 +1,20 @@
+// copy to another array
+#include<stdio.h>
+void copy(int *);
+void main()
+{
+int a[5],i;
+printf("\nenter the elements\n");
+for(i=0;i<5;i++)
+scanf("%d",&a[i]);
+copy(a);
+}
+void copy(int *p)
+{
+int b[5],i;
+for(i=0;i<5;i++)
+ b[i]=p[i];
+ 
+for(i=0;i<5;i++)
+  printf("%d",b[i]);
+}
