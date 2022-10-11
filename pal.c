@@ -1,3 +1,4 @@
+// palindrom or not
 #include<stdio.h>
 #include<string.h>
 void pal(char *q)
